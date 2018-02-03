@@ -41,7 +41,7 @@
 								</div>
 								<H3 class=TitleUnd>Future Meeting Locations and Dates</H3>
 								<div class="innerdiv">
-									<B>Fall 2017:</B> Sacred Heart University, November 17-18, 2017
+									<B>Spring 2018:</B> University of New Haven, June 1-2, 2018
 								</div>
 							</div>
 						</TD>
