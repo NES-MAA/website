@@ -1,0 +1,979 @@
+* { margin: 0; padding: 0; }
+/*  body {  background: #EFF4F9 url(../graphics/bg2.gif) 0 0 repeat-x; color: #000000; font: 16px/normal Tahoma, Arial, Helvetica, sans-serif; text-align: center;}  */
+body {  background: #40A5E0 url(../graphics/body-tail.gif) 0 0px repeat-x; color: #000000; font: 16px/normal Tahoma, Arial, Helvetica, sans-serif; text-align: center;}
+cite { float: right; }
+ul.classic { list-style: disc; margin-bottom: 1em; padding-left: 2em; }
+div.section { clear: both; padding-top: 50px; }
+
+.table1 { float: right; margin-bottom: 2em; border: solid 1px #eee; }
+.table1 caption { color: #fff; text-align: center; padding-bottom: 5px; }
+.table1 th, .table1 td { padding: 7px; }
+.table1 th, .table1 thead td { background-color: lightyellow; color: #000; }
+.table1 tbody td { background-color: #fff; color: #000; }
+.table1 tbody th { text-align: right; }
+
+.partable { margin-bottom: 2px; margin-left: 20px; }
+.partable td { padding: 1px; vertical-align: top; }
+.partable td { padding-right: 10px; }
+
+#wmfg { clear: both; float: left; }
+
+div.frame {
+width: 950px;
+min-width: 950px;
+max-width: 950px;
+/* margin: 10 auto; */
+text-align: left;
+background: #FFFFFF; 
+border: 2px solid #000044;
+/*  padding: 5px;  */
+background: #FFFFFF url(../images/simson_line_back002.png) 0px 0px no-repeat; background-attachment: fixed; 
+/* 
+background: #FFFFFF url(../graphics/backlogo.jpg);
+background-attachment: fixed;  background-repeat: no-repeat; background-position: center;
+*/
+}
+
+div.blackback {
+background: #000000;
+}
+
+
+img.IS {margin: 10px 10px 10px 10px; border: solid black 1pt;}
+img.IS_NB {margin: 10px 10px 10px 10px; border: 0;}
+
+ul.WorkshopMaterials li { 
+	font-weight: normal;
+	font-style: normal;
+	list-style-type: none;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	padding: 0;
+ }
+
+ul.WorkshopMaterials li ul {
+	margin-left: 20px;
+}
+
+ul.WorkshopMaterials li ul li,
+ul.WorkshopMaterials li ul li a { 
+	font-weight: bold;
+	list-style-type: circle;
+	padding: 0;
+	text-decoration: none;
+	margin-bottom: 0px;	
+	color: #000;
+ }
+
+ul.WorkshopMaterials li ul li a.hover,
+ul.WorkshopMaterials li ul li a:hover { 
+	text-decoration: underline;
+	color: #f00;
+ }
+
+ol.IndentList { 
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0;
+ }
+
+ol.IndentList ol{ 
+	margin-left: 20px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding: 0;
+ }
+
+ul.IndentList { 
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0;
+ }
+
+ul.IndentList ul{ 
+	margin-left: 20px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding: 0;
+ }
+
+ul.IndentList_ND { 
+	margin: 0px 0px 10px 20px;
+	list-style: none;
+ }
+
+ul.IndentList_ND LI { 
+	margin: 0px 0px 2px 0px;
+	list-style: none;
+ }
+
+ul.ExamArchiveList { 
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0;
+	list-style: none;
+ }
+
+ul.ExamArchiveList li { 
+	margin-bottom: 3px;
+ }
+
+ul.ExamArchiveList a { 
+	padding: 0;
+	font-weight: bold;
+	color: #000070;
+	text-decoration: none;
+ }
+
+ul.ExamArchiveList a:hover { 
+	color: #FF0000;
+	text-decoration: underline;
+ }
+
+ul.ExamArchiveList ul { 
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0;
+	list-style: none;
+ }
+
+ul.HandoutList { 
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+ul.HandoutList a { 
+	padding: 0;
+	font-weight: bold;
+	color: #000070;
+	text-decoration: none;
+ }
+
+ul.HandoutList a:hover { 
+	color: #FF0000;
+	text-decoration: underline;
+ }
+
+ul.HandoutList ul { 
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0;
+ }
+
+.BoldLink a { 
+	padding: 0;
+	font-weight: bold;
+	color: #000070;
+	text-decoration: none;
+ }
+
+.BoldLink a:hover { 
+	color: #FF0000;
+	text-decoration: underline;
+ }
+
+UL.StudentAwards{
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	list-style: none;
+}
+
+UL.StudentAwards UL{
+	margin: 5px 5px 15px 20px;
+	padding: 0;
+	list-style: none;
+}
+
+UL.StudentAwards UL OL{
+	margin: 5px 10px 5px 40px;
+	padding: 0;
+}
+
+UL.StudentAwards UL UL{
+	margin: 5px 10px 5px 20px;
+	padding: 0;
+	list-style: none;
+}
+
+UL.StudentAwards UL UL LI{
+	margin: 0px 0px 5px 0px;
+	padding: 0;
+	list-style: none;
+}
+
+UL.RestaurantList {
+	margin: 5px 5px 15px 20px;
+	padding: 0;
+	list-style: none;
+}
+
+UL.RestaurantList LI {
+	margin: 5px 5px 0px 2px;
+	padding: 0;
+	list-style: none;
+}
+
+DL.UpdateHistory{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+DL.UpdateHistory ul {
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	padding: 0;
+}
+
+DL.NA {margin: 0 5px 0 5px;
+font-family: "Trebuchet MS", arial, verdana, helvetica, Tahoma, sans-serif;
+font-size:16px;}
+DT.NA {margin: 0 0 0 0} 
+DD.NA {margin: 0 0 10px 20px} 
+
+DD.NA a { 
+	padding: 0;
+	font-weight: bold;
+	color: #000070;
+	text-decoration: none;
+ }
+
+DD.NA a:hover { 
+	color: #FF0000;
+	text-decoration: underline;
+ }
+
+DL.JSAward {
+margin: 0px 20px 10px 20px;
+}
+
+DL.JSAward DT {
+margin: 0px 0px 2px 0px;
+}
+
+/*
+BODY { background: #FFFFFF url(../graphics/backlogo.jpg)}
+BODY { background-attachment: fixed;  background-repeat: no-repeat; background-position: center }
+BODY { margin: 5pt 5pt 5pt 5pt}
+BODY { font-family:verdana, sans-serif; font-size:16px; font-weight:normal; float:left;}
+BODY { width: 97%; min-width:750px;}
+*/
+
+div.FixedWidth01 {
+width: 100%;
+min-width:750px;
+/*  width: 750px; */
+/*  margin-left: auto;
+  margin-right: auto;  */
+}
+
+div.PageHeader{
+	min-width:950px;
+        font-family: "Trebuchet MS", verdana, arial, helvetica, Tahoma, sans-serif;
+        font-size:36px;
+	font-weight: bold;
+	color: #000000;
+	padding:0 0 0 16px;
+	height: 40px;
+	line-height: 40px;
+}
+
+TD.top { vertical-align: top }
+
+TD.topright { vertical-align: top; text-align: right; margin: 0px 5px 0px 0px; }
+
+TD.LeftMenu{
+width: 1%;
+vertical-align: top;
+}
+
+TD.spacer {vertical-align: top; padding-right: 20px}
+
+TD.LeftSpacer {vertical-align: top; padding-left: 10px; padding-right: 10px; text-align: left; width: 100%; }
+
+div.SinglePageIndent {
+margin: 10px 10px 0px 10px;
+}
+
+/*
+TD.Spacer {
+width: 1%; 
+vertical-align: top; 
+padding-right: 7px;
+}
+*/
+
+TD.ContentPane{
+vertical-align: top;
+padding-top: 12px;
+}
+
+TD.RightLine {border-right: 1px; color:#000000}
+
+TABLE.HeaderTable{
+padding: 0px 0px 0px 0px;
+margin: 0 0 0px 0;
+}
+
+TABLE.HeaderTable td.pad{
+padding: 0px 0px 5px 7px;
+}
+
+
+TABLE.GradeTable{
+border: 1px solid #000;
+}
+
+TABLE.GradeTable td {
+padding: 3px 5px 3px 5px;
+border: 1px solid #777;
+text-align: center;
+}
+
+TABLE.GradeTable th {
+padding: 3px 5px 3px 5px;
+border-bottom: 1px solid #777;
+}
+
+TABLE.AssignmentTable{
+border: 1px solid #000;
+}
+
+TABLE.AssignmentTable td {
+padding: 3px 5px 3px 5px;
+border: 1px solid #777;
+text-align: left;
+}
+
+TABLE.AssignmentTable th {
+padding: 3px 5px 3px 5px;
+border-bottom: 1px solid #777;
+text-align: center;
+}
+
+TABLE.MainTable{
+	width: 100%;
+}
+
+TABLE.NextFellowsTable{
+	width: 100%;
+}
+
+TABLE.NextFellowsTable TD{
+	width: 50%;
+	padding: 0px 0px 10px 0px;
+	vertical-align: top;
+	text-align: left;
+}
+
+
+TABLE.StudentChapters{
+	width: 100%;
+}
+
+TABLE.StudentChapters TD{
+	width: 50%;
+	padding: 0px 0px 10px 0px;
+	vertical-align: top;
+	text-align: left;
+}
+
+TABLE.MinutesArchive{
+	width: 100%;
+}
+
+TABLE.MinutesArchive TD{
+	width: 50%;
+	padding: 0px 0px 10px 0px;
+	vertical-align: top;
+	text-align: left;
+}
+
+TABLE.ArchiveList{
+	width: 100%;
+}
+
+TABLE.ArchiveList TD{
+	width: 50%;
+	padding: 5px 10px 5px 10px;
+	vertical-align: top;
+	text-align: left;
+	border: 1px solid #777;
+}
+
+TABLE.ArchiveList TD.Meetings{
+	background-color: #EFF4F9; 
+}
+
+TABLE.ArchiveList TD.Newsletters{
+	background-color: #FFF9BB; 
+}
+
+TABLE.ArchiveList TD.Minutes{
+	background-color: #EEFFEE; 
+}
+
+TABLE.ArchiveList TD.Next{
+	background-color: #FFEEEE; 
+}
+
+TABLE.ArchiveList TD.Shade{
+	background-color: #FAFAFA; 
+}
+
+
+
+TABLE.JobsList{
+	width: 100%;
+}
+
+TABLE.JobsList TR{
+	border: 1px solid #777;
+	background-color: #eef; 
+}
+
+TABLE.JobsList TR.d{
+	background-color: #ddf; 
+}
+
+TABLE.JobsList TR.l{
+	background-color: #eef; 
+}
+
+TABLE.JobsList TH{
+	padding: 5px 10px 5px 10px;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid #777;
+}
+
+TABLE.JobsList TD{
+	padding: 5px 10px 5px 10px;
+	vertical-align: top;
+	text-align: left;
+	border: 1px solid #777;
+}
+
+TABLE.JobsList TD.f{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+TABLE.JobsList TD.fni{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 10px 5px 30px;
+}
+
+TABLE.JobsList TD.f div{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+TABLE.JobsList TD.f span{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+.center{
+text-align: center;
+}
+
+.centerdisplay{
+padding: 10px 0px 10px 0px;
+text-align: center;
+}
+
+div.copyright{
+	font-family: "Trebuchet MS", verdana, arial, helvetica, Tahoma, sans-serif;
+	font-size:12px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h1.ESMC { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 28px; text-indent: 0px; }
+
+/* h1.ESMC2 {padding: 5px; padding-left: 10px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 34px; text-indent: 0px; background: #000000; } */
+
+h1.ESMC2 {padding: 5px; padding-left: 10px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 34px; text-indent: 0px; background: #000000; border-bottom: solid 1px #226EA6;}
+
+/* h1.ESMC2 {padding: 5px; padding-left: 10px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 24px; text-indent: 0px;  background: #FFFFFF url(../graphics/BG_003.jpg) no-repeat center right; border: 1px solid #000;}  */
+
+/* h1.ESMC2 {padding: 5px; padding-left: 10px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 22px; text-indent: 0px;  background: #FFFFFF url(../graphics/bnr_bg3.gif) 0 0 repeat-x;}  */
+
+h1.ESMC_News { margin-bottom: .5em; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 26px; text-indent: 5px; font-style: italic;}
+
+h1.welcome { margin: 20px 0px 20px 0px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 32px; font-style: italic; text-align: center; text-decoration: underline; }
+
+h2.ESMC { margin-bottom: .5em; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 20px; text-indent: 0px; }
+h3.ESMC { margin-bottom: .5em; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 18px; text-indent: 0px; }
+
+h2.ESMC2 { margin-bottom: .5em; margin-top: 3px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 22px; text-indent: 0px; font-style: italic; text-decoration: underline}
+h3.ESMC2 { margin-bottom: .5em; margin-top: 3px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 18px; text-indent: 0px; font-style: italic; text-decoration: underline}
+
+h3.ESMC3 { margin-left: 10px; margin-bottom: .5em; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 18px; text-indent: 0px; font-style: italic; text-decoration: underline}
+
+h1.TitleUnd { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 28px; text-indent: 0px; }
+h2.TitleUnd { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 26px; text-indent: 0px; }
+h3.TitleUnd { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 24px; text-indent: 0px; }
+h4.TitleUnd { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 22px; text-indent: 0px; }
+h5.TitleUnd { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 20px; text-indent: 0px; }
+h6.TitleUnd { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 18px; text-indent: 0px; }
+
+h1.TitleUndS { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 16px; text-indent: 0px; }
+h2.TitleUndS { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 14px; text-indent: 0px; }
+h3.TitleUndS { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 12px; text-indent: 0px; }
+h4.TitleUndS { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 10px; text-indent: 0px; }
+h5.TitleUndS { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 8px; text-indent: 0px; }
+h6.TitleUndS { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 6px; text-indent: 0px; }
+
+
+h3.CenterTitle { margin-bottom: 7px; margin-top: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 18px; text-indent: 0px; text-align: center;  }
+h2.CenterTitle { margin-bottom: 7px; margin-top: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 22px; text-indent: 0px; text-align: center;  }
+
+
+/*********************************************************/
+
+.glossymenu{
+	position: relative;
+	padding: 0 0 0 20px;
+	margin: 0 auto 0 auto;
+	background: url(../graphics/menub_bg.gif) repeat-x; /*tab background image path*/
+	height: 46px;
+	list-style: none;
+	background-color: #FFFFFF; 
+	width: 100%;
+}
+
+.glossymenu li{
+	float:left;
+}
+
+.glossymenu li a{
+	float: left;
+	display: block;
+	color:#000;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding:0 0 0 16px; /*Padding to accomodate left tab image. Do not change*/
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	cursor: pointer;	
+}
+
+.glossymenu li a b{
+	float: left;
+	display: block;
+	padding: 0 24px 0 8px; /*Padding of menu items*/
+}
+
+.glossymenu li.current a, .glossymenu li a:hover{
+	color: #fff;
+	background: url(../graphics/menub_hover_left.gif) no-repeat; /*left tab image path*/
+	background-position: left;
+}
+
+.glossymenu li.current a b, .glossymenu li a:hover b{
+	color: #fff;
+	background: url(../graphics/menub_hover_right.gif) no-repeat right top; /*right tab image path*/
+}
+
+
+/*********************************************************/
+
+
+.arrowlistmenu{
+/* width: 140px; /* width of menu  */
+width: 150px; /* width of menu  */
+padding: 0px 5px 0px 0px; 
+}
+
+.arrowlistmenu .headerbar{
+font: bold 14px Arial;
+color: white;
+/* background: black url(../css/images/blockdefault.gif) repeat-x left;  */
+background: #000;
+margin-bottom: 2px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 0px; /*header text is indented 10px*/
+text-align: center;
+}
+
+.arrowlistmenu .headerbar2{
+font: bold 12px Arial;
+color: black;
+/* background: black url(../css/images/blockdefault.gif) repeat-x left;  */
+/* background: #045C97; */
+margin-bottom: 1px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0px 0px 0px; /*header text is indented 10px*/
+text-align: left;
+}
+
+.arrowlistmenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a{
+color: #000070;
+background: url(../graphics/arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+/* border-bottom: 1px solid #dadada; */
+border: 1px solid #dadada;
+font: bold 13px Arial;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #000070;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+/*
+color: #000070;
+background-color: #F3;
+*/
+color: #000070;
+background-color: #F3F3F3;
+}
+
+/*********************************************************/
+
+
+.DocDownloads
+{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.DocDownloads td
+{
+padding-left: 7px;
+}
+
+.DocDownloads .smallvertspace
+{
+padding-bottom: 5px;
+}
+
+.DocDownloads .bigleft
+{
+padding-left: 30px;
+}
+
+.DocDownloads td a
+{
+color: #000000;
+text-decoration: none;
+font: bold 14px Arial;
+}
+
+.DocDownloads td a:hover
+{
+color: #FF0000;
+text-decoration: none;
+font: bold 14px Arial;
+}
+
+.LessonPlanMaterials
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.LessonPlanMaterials td.bottomline
+{
+border-bottom: solid 2px #ddd;
+}
+
+/*********************************************************/
+
+.sitemap{
+font: normal 12px Arial;
+background: #000;
+color: #FFF;
+list-style: none;
+}
+
+.sitemap .colheader{
+font: bold 12px Arial;
+text-decoration: underline;
+width: 14%;
+}
+
+.sitemap table{
+text-align:left;
+margin: 5px;}
+
+.sitemap a {
+color: #FFF;
+text-decoration: none;
+}
+
+.sitemap LI {
+padding: 0px 10px 2px 0px;
+}
+
+.sitemap a:hover {
+color: #FF0;
+text-decoration: underline;
+}
+
+.SitemapIndent {
+padding-left: 10px;
+}
+
+div.Links{
+padding-left: 10px;
+}
+
+div.Links a {
+color: #000070;
+text-decoration: none;
+font: bold 14px Arial;
+}
+
+div.Links a:hover{
+color: #F00000;
+text-decoration: underline;
+}
+
+HR.WorkshopDiv{
+color: #ddd;
+margin: 0px 100px 0px 100px;
+}
+
+P.Indent{
+margin: 10px 10px 0px 10px;
+text-indent: 20px;
+}
+
+P.IndentNoFirstLine{
+margin: 10px 10px 0px 10px;
+}
+
+P {
+text-indent: 20px;
+margin: 0px 0px 7px 0px;
+}
+
+P.NoIndent {
+text-indent: 0px;
+margin: 5px 0px 5px 0px;
+}
+
+P.NoIndentNoMargin {
+text-indent: 0px;
+margin: 0px 0px 0px 0px;
+}
+
+P.PersonalInfo{
+font: bold 13px Arial;
+margin: 10px 10px 0px 10px;
+}
+
+P.CenterBold{
+margin: 10px 0px 10px 0px;
+font: bold 20px Arial;
+text-align:center;
+text-indent: 0px;
+}
+
+P.LeftBold{
+margin: 10px 0px 10px 0px;
+font: bold 20px Arial;
+text-align:left;
+text-indent: 0px;
+}
+
+P.LeftBoldIndent{
+margin: 10px 0px 10px 0px;
+font: bold 20px Arial;
+text-align:left;
+text-indent: 20px;
+}
+
+P.CenterBoldRed{
+margin: 10px 0px 10px 0px;
+font: bold 20px Arial;
+text-align:center;
+color: #f00;
+text-indent: 0px;
+}
+
+P.StudentChapterAddress{
+text-indent: 0px;
+margin: 0px 0px 10px 0px;
+}
+
+.scrollArea {
+width: 425px;
+height: 275px;
+padding-left: 5px;
+padding-right: 5px;
+border-color: #6699CC;
+border-width: 1px;
+border-style: solid;
+float: left;
+overflow: auto;
+}
+
+.JobScrollArea {
+width: 660px;
+height: 275px;
+padding-left: 5px;
+padding-right: 5px;
+border-color: #6699CC;
+border-width: 1px;
+border-style: solid;
+background-color: #fff; 
+float: left;
+overflow: auto;
+}
+
+
+
+
+HR.MeetingDiv{
+color: #eee;
+margin: 10px 50px 10px 50px;
+}
+
+HR.rightindent{
+margin: 2px 30px 2px 0px;
+}
+
+HR.WorkshopDiv{
+color: #ddd;
+margin: 0px 100px 0px 100px;
+}
+
+HR.NewsDiv{
+color: #ddd;
+margin: 15px 50px 15px 50px;
+}
+
+IMG.NewsImage{
+margin: 5px 5px 5px 5px;
+border: 1px solid #000;
+float: right;
+}
+
+IMG.BioImageLeft{
+margin: 5px 10px 5px 0px;
+border: 1px solid #000;
+float: left;
+}
+
+IMG.BioImageRight{
+margin: 5px 0px 5px 10px;
+border: 1px solid #000;
+float: right;
+}
+
+IMG.MeetingImageLeft{
+margin: 5px 10px 5px 5px;
+border: 0px;
+float: left;
+}
+
+IMG.MeetingImageRight{
+margin: 5px 10px 5px 5px;
+border: 0px;
+float: right;
+}
+
+IMG.MeetingImageLeftBorder{
+margin: 5px 10px 5px 5px;
+border: 1px solid #000;
+float: left;
+}
+
+IMG.MeetingImageRightBorder{
+margin: 5px 10px 5px 5px;
+border: 1px solid #000;
+float: right;
+}
+
+div.ViewingSite{
+margin: 5px 10px 5px 10px;
+}
+
+P.NewsletterStart{
+text-indent: 0px;
+padding: 7px 0px 0px 0px;
+}
+
+.leftindent{
+padding-left: 5px;
+}
+
+.leftindentlarge{
+padding-left: 25px;
+}
+
+.leftindentlargedisplay{
+padding: 10px 0px 10px 40px;
+}
+
+.leftindentverylargedisplay{
+padding: 10px 0px 10px 40px;
+}
+
+.traddressdisplay{
+padding: 10px 0px 10px 20px;
+font: bold 20px Arial;
+}
+
+
+.curlycontainer{
+border: 1px solid #b8b8b8;
+margin-bottom: 1em;
+width: 760px;
+background: #FFFFFF
+}
+
+.curlycontainer .innerdiv{
+background: transparent url(../graphics/brcorner.gif) bottom right no-repeat;
+position: relative;
+left: 2px;
+top: 2px;
+padding: 1px 4px 15px 5px;
+}
+
+.curlycontainer .innerdiv ul {
+list-style: none;
+}
+
+.curlycontainer .innerdiv ul li {
+padding: 5px 5px 5px 10px;
+}

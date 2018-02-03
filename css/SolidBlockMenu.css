@@ -1,0 +1,33 @@
+.solidblockmenu{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 14px Arial;
+width: 100%;
+overflow: hidden;
+background: #000000;
+/*  background: black url(images/blockdefault.gif) center center repeat-x;  */
+}
+
+.solidblockmenu li{
+display: inline;
+}
+
+.solidblockmenu li a{
+float: left;
+color: #FFF;
+padding: 9px 8px;
+text-decoration: none;
+}
+
+.solidblockmenu li a:visited{
+color: white;
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+color: #FFF;
+text-decoration: underline;
+}
+
+
+
