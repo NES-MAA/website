@@ -4,7 +4,7 @@
 	<META NAME="description" CONTENT="Home Page for the Northeastern Section of the MAA">
 	<META NAME="keywords" CONTENT="MAA, Northeastern Section, Mathematics, NES MAA, Mathematics Teachers">
 	<TITLE>Mathematical Association of America - Northeastern Section</TITLE>
-	<LINK REL=StyleSheet HREF="http://sections.maa.org/northeastern/newsite/css/Main.css" TYPE="text/css" MEDIA=all>
-	<link href="http://sections.maa.org/northeastern/newsite/css/SolidBlockMenu.css" media="all" rel="stylesheet" type="text/css" />
+	<LINK REL=StyleSheet HREF="${prefix}css/Main.css" TYPE="text/css" MEDIA=all>
+	<link href="${prefix}css/SolidBlockMenu.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 </HEAD>

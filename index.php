@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd">
 <HTML>
 <!--HTML head portion-->
+<?php $prefix = "http://sections.maa.org/northeastern/newsite/"; ?>
+
 <?php include 'head.php'; ?>
 
 	<BODY>
@@ -54,4 +56,5 @@
 			</div>
 		</CENTER>
 	</BODY>
-</HTML>
+</HTML>
+
