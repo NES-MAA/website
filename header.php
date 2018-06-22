@@ -35,11 +35,11 @@
 					</li>
 					<li><a href="http://sections.maa.org/northeastern/newsite/gov/index.php" class="dir">Governance</a>
 						<ul>
-							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/officers.php">Section Officers</A></li>
-							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/bylaws.pdf">Section Bylaws</A></li>
-							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/reports_and_minutes.php">Reports and Minutes</A></li>
-							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/forms.php">Forms</A></li>
-							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/guides.php">Guides</A></li>
+							<li><A HREF="http://sections.maa.org/northeastern/newsite/gov/officers.php">Section Officers</A></li>
+							<li><A HREF="http://sections.maa.org/northeastern/newsite/gov/bylaws.pdf">Section Bylaws</A></li>
+							<li><A HREF="http://sections.maa.org/northeastern/newsite/gov/reports_and_minutes.php">Reports and Minutes</A></li>
+							<li><A HREF="http://sections.maa.org/northeastern/newsite/gov/forms.php">Forms</A></li>
+							<li><A HREF="http://sections.maa.org/northeastern/newsite/gov/guides.php">Guides</A></li>
 						</ul>
 					</li>
 					<li><a href="meetings.php" class="dir">Meetings</a>
