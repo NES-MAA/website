@@ -1,4 +1,4 @@
-
+<?php $prefix = "http://sections.maa.org/northeastern/newsite/"; ?>
 		<!-- Beginning of compulsory dropdown code below -->
 		<link href="<?php echo ${prefix} ?>css/dropdown/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
 		<link href="<?php echo ${prefix} ?>css/dropdown/themes/nvidia.com/default.advanced.css" media="screen" rel="stylesheet" type="text/css" />

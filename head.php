@@ -1,3 +1,4 @@
+<?php $prefix = "http://sections.maa.org/northeastern/newsite/"; ?>
 <HEAD>
     <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
 	<META NAME="author" CONTENT="Michael Barrus"><!-- Page source freely adapted from webpages of the Maryland-District of Columbia-Virginia Section of the MAA; those pages had a declared author of Don Spickler-->
