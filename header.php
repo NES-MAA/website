@@ -33,13 +33,13 @@
 							<!-- This is for a horizontal divider line in dropdown menus: <HR class=leftmenu>	-->
 						</ul>
 					</li>
-					<li><a href="gov/index.php" class="dir">Governance</a>
+					<li><a href="http://sections.maa.org/northeastern/newsite/gov/index.php" class="dir">Governance</a>
 						<ul>
-							<li><A HREF="gov/officers.php">Section Officers</A></li>
-							<li><A HREF="gov/bylaws.pdf">Section Bylaws</A></li>
-							<li><A HREF="gov/reports_and_minutes.php">Reports and Minutes</A></li>
-							<li><A HREF="gov/forms.php">Forms</A></li>
-							<li><A HREF="gov/guides.php">Guides</A></li>
+							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/officers.php">Section Officers</A></li>
+							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/bylaws.pdf">Section Bylaws</A></li>
+							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/reports_and_minutes.php">Reports and Minutes</A></li>
+							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/forms.php">Forms</A></li>
+							<li><A HREF="a href="http://sections.maa.org/northeastern/newsite/gov/guides.php">Guides</A></li>
 						</ul>
 					</li>
 					<li><a href="meetings.php" class="dir">Meetings</a>
