@@ -537,7 +537,7 @@ h1.ESMC { margin-bottom: .5em; border-bottom: solid 1px #000000; font-family: Ar
 
 /* h1.ESMC2 {padding: 5px; padding-left: 10px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 34px; text-indent: 0px; background: #000000; } */
 
-h1.ESMC2 {padding: 5px; padding-left: 10px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 34px; text-indent: 0px; background: #000000; border-bottom: solid 1px #226EA6;}
+h1.ESMC2 {padding: 5px; padding-left: 10px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 34px; text-indent: 0px; background: #660000; border-bottom: solid 1px #226EA6;}
 
 /* h1.ESMC2 {padding: 5px; padding-left: 10px; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 24px; text-indent: 0px;  background: #FFFFFF url(../graphics/BG_003.jpg) no-repeat center right; border: 1px solid #000;}  */
 
@@ -745,7 +745,7 @@ border-bottom: solid 2px #ddd;
 
 .sitemap{
 font: normal 12px Arial;
-background: #000;
+background: #660000;
 color: #FFF;
 list-style: none;
 }

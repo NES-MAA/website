@@ -42,13 +42,14 @@
 							<li><A HREF="<?php echo ${prefix} ?>gov/guides.php">Guides</A></li>
 						</ul>
 					</li>
-					<li><a href="<?php echo ${prefix} ?>meetings.php" class="dir">Meetings</a>
+					<li><a href="<?php echo ${prefix} ?>index.php" class="dir">Meetings</a>
 						<ul>
-							<li><A HREF="<?php echo ${prefix} ?>meetings.php">Next Section Meeting</A></li> <!-- Replace this with a link to the Google Sites page when a conference website is ready! -->
-							<li><A HREF="<?php echo ${prefix} ?>FutureMeetings.php">Future Section Meetings</A></li>
-							<li><A HREF="<?php echo ${prefix} ?>PastMeetings.php">Past Section Meetings</A></li>
-							<li><A HREF="<?php echo ${prefix} ?>DinnerMeetings.php">Dinner Meetings</A></li>
-							<li><A HREF="<?php echo ${prefix} ?>MiniCourses.php">Mini-Courses</A></li>
+							<li><A HREF="<?php echo ${prefix} ?>mtgs/index.php#NextMeeting">Next Section Meeting</A></li> <!-- Replace this with a link to the Google Sites page when a conference website is ready! -->
+							<li><A HREF="<?php echo ${prefix} ?>mtgs/index.php#FutureMeetings">Future Section Meetings</A></li>
+							<li><A HREF="<?php echo ${prefix} ?>mtgs/past.php">Past Section Meetings</A></li>
+							<li><A HREF="<?php echo ${prefix} ?>mtgs/dinner.php">Dinner Meetings</A></li>
+							<li><A HREF="<?php echo ${prefix} ?>mtgs/mini.php">Mini-Courses</A></li>
+							<li><A HREF="<?php echo ${prefix} ?>mtgs/hosting.php">Hosting</A></li>
 						</ul>
 					</li>
 					<li><a href="<?php echo ${prefix} ?>StudentActivities.php" class="dir">Student Activities</a>
